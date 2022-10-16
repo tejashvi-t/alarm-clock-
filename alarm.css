@@ -1,0 +1,119 @@
+.icons,
+li {
+  display: flex;
+  float: right;
+  margin: 2px;
+
+}
+
+
+body {
+  background-image: url("favbg.jpg");
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* SETTING IMAGE STYLE  */
+
+.timer {
+  margin-top: 5px;
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+}
+
+/* MAIN CONTAINER STYLE */
+
+
+.container {
+  position: static;
+  border: 2px solid rgba(245, 245, 245, 0.559);
+  background-color: rgba(74, 184, 168, 0.89);
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px rgba(146, 121, 121, 0.384);
+  box-shadow: -10px -10px 5px rgba(146, 121, 121, 0.384);
+
+
+}
+
+
+.container {
+  border-style: none;
+  width: 300px;
+  height: 100%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CONTAINER ENDS */
+
+
+.clock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.alarm-heading{
+  color: rgba(212, 45, 16, 0.934);
+}
+
+
+
+
+.my-alarm {
+  margin-top: -20px;
+}
+
+.set-alarm {
+  color: rgba(230, 72, 37, 0.89);
+  margin-left: 15px;
+  margin-top: 3px;
+  padding: 4px;
+}
+
+.clear-alarm {
+  margin-left: 10px;
+  padding: 4px;
+  color: rgba(55, 67, 237, 0.781);
+}
+
+
+.time-button {
+  background-color: rgb(235, 162, 45);
+  margin-left: 5px;
+
+
+}
+/* footer section  */
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* owner name  */
+.tejas {
+  color: red;
+}

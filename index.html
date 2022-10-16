@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="bg clock.webp">
+  <link rel="stylesheet" href="alarm.css">
+  <script src="https://kit.fontawesome.com/9c59addb12.js" crossorigin="anonymous"></script>
+  <title>   Alarm Clock</title>
+</head>
+
+<body>
+  <!-- this code is for main content or container -->
+  <section class="container">
+    <div class="time-display">
+      <div>
+        <nav class="icons">
+          <ul>
+            <li class="icon-li"><i class="fa-sharp fa-solid fa-wifi"></i></li>
+            <li class="icon-li"><i class="fa-solid fa-bell"></i></li>
+            <li class="icon-li"><i class="fa-solid fa-battery-full"></i></li>
+
+          </ul>
+        </nav>
+      </div>
+<!-- clock img -->
+      <img class="timer" src="clock3.png">
+      <br>
+<!-- time and alarm setting -->
+      <div class="clock" id="main-clock"></div>
+      <hr>
+    </div>
+    <form class="setAlarm">
+      <label class="s">
+        <h3> &nbsp    &nbsp   &nbsp   &nbsp   &nbsp    Set Your Alarm ! <br>  &nbsp   &nbsp   &nbsp   &nbsp   &nbsp   (24-Hour Clock)</h3><label><br>
+          <div class="set-alarm-field">
+            <input type="number" name="a_hour" id="a_hour" placeholder="HOUR" max="23" min="00" class="time-button">
+            <input type="number" name="a_min" id="a_min" placeholder="MIN" max="59" min="00" class="time-button">
+            <input type="number" name="a_sec" id="a_sec" placeholder="SEC" max="59" min="00" class="time-button">
+          </div>
+          <div class="controls">
+            <button type="submit" class="set-alarm">SET TIME </button>
+            <button type="reset" onclick="clearAlarm()" class="clear-alarm">STOP-ALARM</button>
+          </div>
+    </form>
+
+    <br>
+    <br>
+     <!-- alarm list  -->
+    <section class="container2">
+      <div>
+        <h3 class="my-alarm">MY ALARMS </h3>
+      </div>
+      <div>
+        <ul id="myList">
+
+        </ul>
+      </div>
+    </section>
+
+  </section>
+<!-- main content ends  -->
+
+<!-- footer  -->
+  <section class="footer">
+
+    <footer>
+      <hr>
+      <p>
+        Designed in India &nbsp&nbsp&nbsp&nbsp By ❤❤
+
+<!-- copyright -->
+      </p>
+
+      <p>&#169 2022 &nbsp &nbsp All right reserved by <i class="tejas">TEJAS</i>. </p>
+
+      <hr>
+
+    </footer>
+  </section>
+
+
+<!-- adding js file  -->
+
+  <script src="index.js"></script>
+</body>
+
+</html>
